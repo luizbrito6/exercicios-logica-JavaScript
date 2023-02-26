@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+     
+
+    <title>Exercício 02 - Lista JavaScript</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="conteudo">
+            <h1>CONVERSOR DE MOEDAS</h1>
+            
+            <fieldset>
+                <legend>Real brasileiro</legend>
+                <p>  R$</p>
+                <input type="number" id="real" autofocus>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Dólar americano</legend>
+                <p>  US$</p>
+                <input type="number" id="dolar"> 
+            </fieldset>
+
+            <div class="botoes">
+
+                <button type="submit" onclick="convertaDolar()">Converta Dolar</button>
+                
+                <button type="submit" onclick="convertaReal()">Converta Real</button>
+
+            </div>
+
+            <span>Exercício 02 - Lista JavaScript</span>
+        </div>
+            
+        <img src="https://s2.best-wallpaper.net/wallpaper/iphone/1806/Dollar-one-roll-money_iphone_1080x1920.jpg" alt="imagem referente a moeda dólar">
+
+    </div>
+
+
+    <script src="script.js"></script>
+</html>

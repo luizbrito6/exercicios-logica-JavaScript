@@ -1,0 +1,15 @@
+@media (max-width: 800px) {
+    
+    img{
+        display: none;
+    }
+
+    .conteudo{
+        width: 305px;
+    }
+
+    input, .resultado{
+        width: 250px;
+    }
+
+}
