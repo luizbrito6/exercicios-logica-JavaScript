@@ -1,14 +1,23 @@
 
+
+const input = document.getElementsByTagName('input');
+
+
+input[0].addEventListener('input', convertaDolar);
+input[1].addEventListener('input', convertaReal);
+
 function convertaDolar() {
 
     var real =  parseFloat(document.querySelector('#real').value); 
-    var inputDolar = document.querySelector('#dolar').value = (real * 0.19).toFixed(2);     
+    var inputDolar = document.querySelector('#dolar').value = (real * 0.19).toFixed(2);    
 
 }
 
 function convertaReal() {
+
     var dolar =  parseFloat(document.querySelector('#dolar').value); 
-    var inputReal = document.querySelector('#real').value = (dolar * 5.21).toFixed(2); 
+    var inputReal = document.querySelector('#real').value = (dolar * 5.21).toFixed(2);
+     
 }
 
 
